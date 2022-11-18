@@ -24,7 +24,7 @@ Feito!
 
 Código de exemplo do robô
 
-    
+<p>
 import sys
 import os
 import platform
@@ -41,7 +41,7 @@ for param in sys.argv[1:]:
 os.system(command)
 
 NOTA: Para executar o robot por meio do arquivo run.py é preciso digitar o seguinte comando: python3 run.py -web  ou é possível executá-lo por meio do comando robot: robot --listener 'RobotNotifications;https://hooks.slack.com/services/--your url--;end_test;summary' -d ./evidencias ./Web_Automation/Tests/*.robot
-
+</p>
 
 A execução do robô envia a mensagem para o canal no Slack.
 
