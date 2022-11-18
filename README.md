@@ -31,7 +31,6 @@ import platform
 from os import path
 
 sys.path.append(path.abspath('./'))
-# import config
     
 for param in sys.argv[1:]:
     if param == "-web":
